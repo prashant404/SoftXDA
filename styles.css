@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Baloo Da 2', cursive;  
+ 
+}
+#nav {
+  margin: 10px;
+  padding: 10px;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+
+  /* overflow: hidden; */
+}
+
+.class {
+  width: 50%;
+  /* border: 1px solid black; */
+  /* margin: 5px; */
+}
+/* img {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+  
+} */
+
+.button {
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+a:hover {
+  color: brown;
+}
+
+.heading {
+  text-align: center;
+}
+
+.customs {
+  margin: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  text-align: center;
+  background-image: radial-gradient(circle, #6bd1c2, #6bd6bb, #71dbb2, #7bdfa6, #89e399, #89e79c, #8aea9f, #8aeea2, #7af2b7, #6cf6cb, #62f9df, #5ffbf1);
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  text-decoration: underline;
+  /* color: white; */
+}
+
+.logo {
+  width: 50%;
+  height: 65%;
+  margin: 10px;
+}
+
+/* Styles for Custom Page*/
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom {
+  margin: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+}
