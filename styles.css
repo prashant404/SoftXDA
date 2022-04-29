@@ -4,6 +4,12 @@
   border-radius: 5px;
   font-family: 'Baloo Da 2', cursive;  
  
+ 
+}
+
+body{
+  background-color: black;
+  color: white;
 }
 #nav {
   margin: 10px;
@@ -70,7 +76,7 @@ a:hover {
   grid-template-columns: 50% 50%;
   grid-gap: 10px;
   text-align: center;
-  background-image: radial-gradient(circle, #6bd1c2, #6bd6bb, #71dbb2, #7bdfa6, #89e399, #89e79c, #8aea9f, #8aeea2, #7af2b7, #6cf6cb, #62f9df, #5ffbf1);
+  /* background-image: radial-gradient(circle, #6bd1c2, #6bd6bb, #71dbb2, #7bdfa6, #89e399, #89e79c, #8aea9f, #8aeea2, #7af2b7, #6cf6cb, #62f9df, #5ffbf1); */
 }
 
 h3 {
@@ -96,22 +102,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
 }
 
 .custom {
   padding: 5px;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 50%;
   text-align: center;
-
 }
 
 footer {
@@ -130,9 +127,9 @@ lottie-player{
 }
 
 
-.dark-mode {
-  background-color: black;
-  color: white;
+.light-mode {
+  background-color:white;
+  color: black;
 }
 
 .info{
