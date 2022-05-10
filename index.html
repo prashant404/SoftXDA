@@ -13,11 +13,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Comfortaa&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Caveat&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="./images/icons8-cellphone-filled-outline-icons-96.png" type="image/x-icon">
 <script>
   function myFunction() {
      var element = document.body;
-     element.classList.toggle("light-mode");
+     element.classList.toggle("night-mode");
+     document.getElementById("nightlight").value="Toggle night mode";
   }
   
   </script>
@@ -33,37 +39,32 @@
 </head>
 
 <body>
-  <div id="nav">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="https://adb.clockworkmod.com/" target="_blank">Adb
-          Drivers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="custom.html" target="_blank">Custom Recovery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"
-          href="https://fossbytes.com/how-to-unlock-bootloader-on-xiaomi-devices-using-mi-unlock-tool/"
-          target="_blank">Unlock Bootloader Xiaomi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://c.realme.com/in/post-details/1248075024070344704" target="_blank">Unlock
-          Bootloader Realme</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://nikgapps.com/" target="_blank">NikGapps</a>
-      </li>
-      <li class="nav-item">
-        <a><button onclick="myFunction()" class="btn-toggle">Toggle light mode</button></a>
-      </li>
-
-    </ul>
+  <div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand" id="brand"><img src="./images/SoftXDA-logos.png" class="logo-nav"</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" class="nav-links">
+          <div class="navbar-nav navlink">
+            <a class="nav-item nav-link active" href="https://adb.clockworkmod.com/" target="_blank">Adb Drivers</a>
+            <a class=" nav-item nav-link" href="custom.html" target="_blank">Download Custom Recovery</a>
+            <a class="nav-link" href="https://fossbytes.com/how-to-unlock-bootloader-on-xiaomi-devices-using-mi-unlock-tool/" target="_blank">Unlock Bootloader Xiaomi</a>
+            <a class="nav-link" href="https://c.realme.com/in/post-details/1248075024070344704" target="_blank">Unlock
+              Bootloader Realme</a>
+            <a class="nav-link" href="https://nikgapps.com/" target="_blank">NikGapps</a>
+			<a class="nav-link" href="https://www.xda-developers.com/" target="_blank">XDA</a>
+            <a><button onclick="myFunction()" class="btn-toggle" id="nightlight">Toggle light mode</button></a>
+          </div>
+        </div>
+      </div>
+	  </div>
     <div class="animation">
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_pni0fyrb.json" background="transparent"
         speed="2.0" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-        <p id="intro">"Hey Geek welcome to SoftXDA . Explore all your needs for your device under one roof."</p>
+        <p id="intro">"Hey Geek 👨‍💻📲 welcome to SoftXDA . Explore all your needs for your device under one roof."</p>
     </div>
   </div>
   <h3 class="heading">Stock Rom and Firmwares</h3>
@@ -140,6 +141,14 @@
       <a href="https://project-xtended.org/" target="_blank"><img src="./images/msm.jpg " alt="" class=" logo"></a>
       <h5>MSM Xtended</h5>
     </div>
+	 <div id="15">
+      <a href="https://www.spark-os.live/" target="_blank"><img src="./images/sparkos.png " alt="" class=" logo"></a>
+      <h5>Spark OS</h5>
+    </div>
+	 <div id="14">
+      <a href="https://downloads.descendant.me/" target="_blank"><img src="./images/Descendant-custom-ROM-logo-1024x576.jpg " alt="" class=" logo"></a>
+      <h5>Descendant OS</h5>
+    </div>
   </div>
 
   <div class="info">
@@ -152,8 +161,10 @@
     <a href="https://www.xda-developers.com/youtube-vanced-apk/">Install Youtube Vanced.</a>
 
   </div>
-
-  <footer>By <a href="https://github.com/prashant404">prashant404</a></footer>
+<div id="footer">
+ <footer>By <a href="https://github.com/prashant404">prashant404</a></footer>
+</div>
+ 
 </body>
 
 </html>

@@ -2,12 +2,13 @@
   margin: 0;
   border: 0;
   border-radius: 5px;
-  font-family: 'Asap', sans-serif;
+
 }
 
 body {
   background-color: black;
   color: white;
+  font-family: 'Roboto Flex', sans-serif;
 }
 #nav {
   margin: 10px;
@@ -78,18 +79,18 @@ a:hover {
 
 h3 {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: underline;
   /* color: white; */
   /* font-family: 'Caveat', cursive; */
-  font-family: 'Asap', sans-serif;
+  margin:5px;
+  padding:5px;
 
 }
 
 .logo {
   width: 40%;
   height: 50%;
-  margin: 10px;
   object-fit: contain;
 }
 
@@ -110,7 +111,7 @@ h3 {
 }
 
 footer {
-  text-align: right;
+  text-align: center;
   font-family: "Caveat", cursive;
 }
 
@@ -120,11 +121,13 @@ lottie-player {
 
 #intro {
   text-align: center;
-  font-family: "Caveat", cursive;
-  font-size: 20px;
+font-family: 'Playfair Display SC', serif;
+  font-size: 18px;
+     margin: 30px;
+    padding: 10px;
 }
 
-.light-mode {
+.night-mode {
   background-color: white;
   color: black;
 }
@@ -139,4 +142,49 @@ lottie-player {
 .btn-toggle {
   border-radius: 5px;
   margin-top: 8px;
+}
+
+.navlink{
+	justify-content:center;
+}
+
+.navlink > a{
+	 padding-left:30px;
+  padding-right:30px;
+}
+.navlink > a{
+	 margin-left:30px;
+  margin-right:30px;
+}
+
+#footer{
+	display:block;
+	margin:10px auto;
+	width:50%;
+	background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  
+
+}
+
+footer a{
+	color:black;
+}
+
+h5{
+	font-size:16px;
+	margin-top:5px;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.logo-nav{
+	  width: 80%;
+  height: 50%;
+  object-fit: contain;
 }
