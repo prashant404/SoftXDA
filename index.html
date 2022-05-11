@@ -3,35 +3,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SoftXDA</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Comfortaa&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Caveat&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="./images/icons8-cellphone-filled-outline-icons-96.png" type="image/x-icon">
-<script>
-  function myFunction() {
-     var element = document.body;
-     element.classList.toggle("night-mode");
-     document.getElementById("nightlight").value="Toggle night mode";
-  }
-  
-  </script>
- <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="script.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6Y7HVKPFL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
 
   gtag('config', 'G-T6Y7HVKPFL');
@@ -42,41 +32,38 @@
   <div class="m-4">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand" id="brand"><img src="./images/SoftXDA-logos.png" class="logo-nav"</a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse" class="nav-links">
-          <div class="navbar-nav navlink">
-            <a class="nav-item nav-link active" href="https://adb.clockworkmod.com/" target="_blank">Adb Drivers</a>
-            <a class=" nav-item nav-link" href="custom.html" target="_blank">Download Custom Recovery</a>
-            <a class="nav-link" href="https://fossbytes.com/how-to-unlock-bootloader-on-xiaomi-devices-using-mi-unlock-tool/" target="_blank">Unlock Bootloader Xiaomi</a>
-            <a class="nav-link" href="https://c.realme.com/in/post-details/1248075024070344704" target="_blank">Unlock
-              Bootloader Realme</a>
-            <a class="nav-link" href="https://nikgapps.com/" target="_blank">NikGapps</a>
-			<a class="nav-link" href="https://www.xda-developers.com/" target="_blank">XDA</a>
-            <a><button onclick="myFunction()" class="btn-toggle" id="nightlight">Toggle light mode</button></a>
+        <a href="#" class="navbar-brand" id="brand"><img src="./images/SoftXDA-logos.png" class="logo-nav" </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse" class="nav-links">
+            <div class="navbar-nav navlink">
+              <a class="nav-item nav-link active" href="https://adb.clockworkmod.com/" target="_blank">Adb Drivers</a>
+              <a class=" nav-item nav-link" href="custom.html" target="_blank">Download Custom Recovery</a>
+              <a class="nav-link" href="https://fossbytes.com/how-to-unlock-bootloader-on-xiaomi-devices-using-mi-unlock-tool/" target="_blank">Unlock Bootloader Xiaomi</a>
+              <a class="nav-link" href="https://c.realme.com/in/post-details/1248075024070344704" target="_blank">Unlock
+                Bootloader Realme</a>
+              <a class="nav-link" href="https://nikgapps.com/" target="_blank">NikGapps</a>
+              <a class="nav-link" href="https://www.xda-developers.com/" target="_blank">XDA</a>
+              <a><button onclick="myFunction()" class="btn-toggle" id="nightlight"> ☼ Toggle light mode</button></a>
+            </div>
           </div>
-        </div>
       </div>
-	  </div>
-    <div class="animation">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_pni0fyrb.json" background="transparent"
-        speed="2.0" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-        <p id="intro">"Hey Geek 👨‍💻📲 welcome to SoftXDA . Explore all your needs for your device under one roof."</p>
-    </div>
+  </div>
+  <div class="animation">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_pni0fyrb.json" background="transparent" speed="2.0" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    <p id="intro">"Hey Geek 👨‍💻📲 welcome to SoftXDA . Explore all your needs for your device under one roof."</p>
+  </div>
   </div>
   <h3 class="heading">Stock Rom and Firmwares</h3>
   <div class="sections">
     <div class="class">
 
-      <a href="https://xiaomifirmwareupdater.com/" target="_blank"><img src="./images/Xiaomi-Logo-2014.png" alt=""
-          class="logo"></a></button>
+      <a href="https://xiaomifirmwareupdater.com/" target="_blank"><img src="./images/Xiaomi-Logo-2014.png" alt="" class="logo"></a></button>
     </div>
     <div class="class">
-      <a href="https://www.realme.com/in/support/software-update" target="_blank"><img
-          src="./images/2560px-Realme-realme-_logo_box-RGB-01.svg.png" alt="" class="logo">
+      <a href="https://www.realme.com/in/support/software-update" target="_blank"><img src="./images/2560px-Realme-realme-_logo_box-RGB-01.svg.png" alt="" class="logo">
       </a>
     </div>
   </div>
@@ -92,8 +79,7 @@
       <h5>Corvus ROM</h5>
     </div>
     <div id="3">
-      <a href="https://download.pixelexperience.org/" target="_blank"><img src="./images/pixel_exp.png" alt=""
-          class="logo"></a>
+      <a href="https://download.pixelexperience.org/" target="_blank"><img src="./images/pixel_exp.png" alt="" class="logo"></a>
       <h5>Pixel Experience</h5>
     </div>
     <div id="4">
@@ -125,8 +111,7 @@
       <h5>LineageOS</h5>
     </div>
     <div id="11">
-      <a href="https://www.droidontime.com/" target="_blank"><img src="./images/dotOS-logo-e1631270073644.jpg "
-          alt="" class=" logo"></a>
+      <a href="https://www.droidontime.com/" target="_blank"><img src="./images/dotOS-logo-e1631270073644.jpg " alt="" class=" logo"></a>
       <h5>Dot OS</h5>
     </div>
     <div id="12">
@@ -141,30 +126,49 @@
       <a href="https://project-xtended.org/" target="_blank"><img src="./images/msm.jpg " alt="" class=" logo"></a>
       <h5>MSM Xtended</h5>
     </div>
-	 <div id="15">
+    <div id="15">
       <a href="https://www.spark-os.live/" target="_blank"><img src="./images/sparkos.png " alt="" class=" logo"></a>
       <h5>Spark OS</h5>
     </div>
-	 <div id="14">
+    <div id="14">
       <a href="https://downloads.descendant.me/" target="_blank"><img src="./images/Descendant-custom-ROM-logo-1024x576.jpg " alt="" class=" logo"></a>
       <h5>Descendant OS</h5>
     </div>
+    <div id="15">
+      <a href="https://www.aicp-rom.com/" target="_blank"><img src="./images/aicp.png " alt="" class=" logo"></a>
+      <h5>AICP</h5>
+    </div>
+  </div>
+
+  <div class="info">
+    <p id="intro">Didn't found your ROM ? Search for your device name xda.<br />
+      Example->Redmi Note 10Pro XDA.</p>
   </div>
 
   <div class="info">
     <h3 class="heading">Tutorials</h3>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_9qdPut.json"  background="transparent"  speed="1.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_9qdPut.json" background="transparent" speed="1.5" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
     <a href="https://www.xda-developers.com/how-to-install-magisk/">How to install magisk to root.</a>
     <a href="https://www.xda-developers.com/riru/">What is Riru?.</a>
     <a href="https://www.xda-developers.com/how-to-download-android-13/">How to download Android 13.</a>
     <a href="https://www.xda-developers.com/youtube-vanced-apk/">Install Youtube Vanced.</a>
 
   </div>
-<div id="footer">
- <footer>By <a href="https://github.com/prashant404">prashant404</a></footer>
-</div>
- 
+
+  <div class="container my-footer">
+
+    <footer class="text-center text-lg-start border border-white mt-xl-4 pt-3">
+
+      <div class="text-center p-3 ">
+        © 2022:
+        <a class="text-white" href="https://github.com/prashant404">prashant404</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+
 </body>
 
 </html>
