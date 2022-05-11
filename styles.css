@@ -4,7 +4,8 @@
 }
 
 body
-{ font-family: 'Roboto Flex', sans-serif; color: white;
+{ font-family: 'Roboto Flex', sans-serif;
+ color: white;
     background-color: black;
 }
 #nav
@@ -14,8 +15,11 @@ body
 
 .sections
 {
-    display: flex;/* border: 2px solid black; */
-    align-items: center;  flex-direction: row; justify-content: center;  margin: 20px;  padding: 20px;  text-align: center; background-image: linear-gradient(
+    display: flex;
+/* border: 2px solid black; */
+    align-items: center;  flex-direction: row;
+ justify-content: center;  margin: 20px;  padding: 20px;  text-align: center;
+ background-image: linear-gradient(
     to right top,
     #051937,
     #004d7a,
@@ -63,12 +67,14 @@ a:hover
 .customs
 { display: grid;
 
-    margin: 20px;  padding: 10px;  text-align: center; grid-template-columns: 33% 33% 33%;  grid-gap: 15px;
+    margin: 20px;  padding: 10px;  text-align: center;
+ grid-template-columns: 33% 33% 33%;  grid-gap: 15px;
     /* background-image: radial-gradient(circle, #6bd1c2, #6bd6bb, #71dbb2, #7bdfa6, #89e399, #89e79c, #8aea9f, #8aeea2, #7af2b7, #6cf6cb, #62f9df, #5ffbf1); */
 }
 
 h3
-{ font-size: 20px;/* color: white; */
+{ font-size: 20px;
+/* color: white; */
     /* font-family: 'Caveat', cursive; */
 
     margin: 5px;  padding: 5px;
@@ -85,11 +91,13 @@ h3
 
 #main
 {
-    display: flex;  align-items: center; flex-direction: column;  justify-content: center;
+    display: flex;  align-items: center;
+ flex-direction: column;  justify-content: center;
 }
 
 .custom
-{ display: flex;  align-items: center; flex-direction: column;  justify-content: center;  width: 50%;  margin: 10px auto;
+{ display: flex;  align-items: center;
+ flex-direction: column;  justify-content: center;  width: 50%;  margin: 10px auto;
     padding: 5px;  text-align: center;
 }
 
@@ -104,7 +112,7 @@ lottie-player
 }
 
 #intro
-{ font-family: 'Lobster', cursive;  font-size: 18px;  margin: 30px;  padding: 10px;
+{ font-family: 'DM Sans', sans-serif;  font-size: 18px;  margin: 30px;  padding: 10px;
 
     text-align: center;
 }
@@ -116,7 +124,8 @@ lottie-player
 
 .info
 {
-    display: flex;  align-items: center; flex-direction: column;  justify-content: center;
+    display: flex;  align-items: center;
+ flex-direction: column;  justify-content: center;
 }
 
 .btn-toggle
